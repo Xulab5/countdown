@@ -4,3 +4,8 @@ color: greed;
   padding:10px 15px;
   
 }
+
+.active{
+font-weight: bolder;
+  font-size:20px;
+}
