@@ -1,1 +1,5 @@
 # countdown
+
+## Screenshot
+
+![](./screenshot.jpg)
