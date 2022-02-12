@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: Rowdies;
+    src: url(https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Oswald:wght@300;600&family=Rowdies:wght@300;400&display=swap);
+  }
+.countdown-timer{
+    color:white;
+    display: flex;
+    font-size: 40px;
+    font-family: Rowdies, sans-serif;
+    justify-content: center;
+
+}
+.countdown-timer span{
+    display: block;
+}
+span.label {
+    font-size: 20px;
+}
+.days,.hours,.minutes,.seconds{
+    background-color: black;
+    flex: 1;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-weight: 900;
+}
+.seconds{
+    padding-right: 5px;
+}
+@media (min-width:768px) {
+    .days,.hours,.minutes,.seconds{
+        border: 2px solid;
+        border-radius: 15px;
+        padding-top: 2px;
+        padding-bottom: 8px;
+    }
+
+    .countdown-timer{
+        width: 600px;
+        margin: 0 auto;
+        font-size: 60px;
+    }
+}
